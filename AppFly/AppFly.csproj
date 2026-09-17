@@ -65,7 +65,16 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <MauiXaml Update="FlyoutPage.xaml">
+	  <Compile Update="FlyoutP.xaml.cs">
+	    <DependentUpon>FlyoutP.xaml</DependentUpon>
+	  </Compile>
+	</ItemGroup>
+
+	<ItemGroup>
+	  <MauiXaml Update="FlyoutP.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="valorant.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>
