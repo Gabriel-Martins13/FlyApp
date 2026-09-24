@@ -12,7 +12,12 @@ public partial class FlyoutP : FlyoutPage
 
     private void Valorant(object sender, EventArgs e)
     {
-        Detail = new NavigationPage(new Valorant());
+        Detail = new NavigationPage(new valorant());
         IsPresented = false;
+    }
+
+    private void OnValorantClicked(object sender, EventArgs e)
+    {
+
     }
 }

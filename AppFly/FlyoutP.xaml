@@ -15,7 +15,7 @@
                         WidthRequest="200"/>
 
                 <Button Text ="Autonomia Km/L"
-                        Clicked="OnautonomaaaaiaClicked"
+                        Clicked="OnValorantClicked"
                         WidthRequest="200"/>
 
             </StackLayout>
