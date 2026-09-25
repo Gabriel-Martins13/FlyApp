@@ -1,28 +1,47 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
-<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
-             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppFly.MainPage">
+﻿<ContentPage 
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="AppFly.MainPage"
+    BackgroundColor="#121212">
 
     <ScrollView>
         <VerticalStackLayout
-            Padding="30,0"
-            Spacing="25">
-            <Image
-                Source="dotnet_bot.png"
-                HeightRequest="185"
-                Aspect="AspectFit"
-                SemanticProperties.Description="dot net bot in a hovercraft number nine" />
+            Padding="30"
+            Spacing="20"
+            VerticalOptions="Center">
 
+            <!-- Título de Boas-Vindas -->
             <Label
-                Text="Hello, World!"
-                Style="{StaticResource Headline}"
-                SemanticProperties.HeadingLevel="Level1" />
+                Text="Sobre Mim"
+                FontSize="32"
+                FontAttributes="Bold"
+                HorizontalOptions="Center"
+                TextColor="#FFFFFF" />
 
+            <!-- Texto de Apresentação Pessoal -->
             <Label
-                Text="Clique nos três traços ao lado para"
-                Style="{StaticResource SubHeadline}"
-                SemanticProperties.HeadingLevel="Level2" />
+                Text="Olá! Seja bem-vindo ao meu aplicativo. Este projeto é uma vitrine dos 3 jogos que mais marcaram a minha trajetória e que mais curto jogar atualmente."
+                FontSize="16"
+                HorizontalTextAlignment="Center"
+                TextColor="#CCCCCC"
+                 />
 
+            <!-- Segunda frase de apresentação -->
+            <Label
+                Text="Aqui você vai conhecer um pouco mais sobre o meu gosto pessoal para games, desde a sobrevivência até a ação e a estratégia tática."
+                FontSize="15"
+                HorizontalTextAlignment="Center"
+                TextColor="#AAAAAA"
+                />
+
+            <!-- Instrução para abrir o Flyout -->
+            <Label
+                Text="👈 Clique nos três traços no canto superior para explorar o meu Top 3!"
+                FontSize="14"
+                FontAttributes="Italic"
+                HorizontalTextAlignment="Center"
+                TextColor="#FF4655"
+                Margin="0,15,0,0" />
 
         </VerticalStackLayout>
     </ScrollView>

@@ -1,24 +1,22 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="AppFly.valorant"
-             BackgroundImageSource="va.jpg"
+             x:Class="AppFly.Minecraft"            
+             BackgroundImageSource="waaa.jpg"
              >
     <VerticalStackLayout>
         <Image
             Margin="0,32,0,0"
-            Source="vavava.png"
-            HeightRequest="120"
-            Aspect="AspectFit"
-            SemanticProperties.Description="dot net bot in a hovercraft number nine"
+            Source="minjen.jpg"
+            HeightRequest="140"
                 />
         <VerticalStackLayout
             BackgroundColor="#80000000"
-            HeightRequest="230"
+            HeightRequest="200"
             >
-            
+
             <Label 
-            Text="Valorant"
+            Text="Minecraft"
             VerticalOptions="Center" 
             HorizontalOptions="Center"
             FontSize="50"
@@ -26,7 +24,7 @@
             FontFamily = "OpenSansSemibold"
             />
             <Label
-            Text="Valorant é um jogo eletrônico multijogador gratuito para jogar de tiro em primeira pessoa desenvolvido e publicado pela Riot Games. É o primeiro jogo do gênero desenvolvido pela empresa, sendo anunciado pela primeira vez com o codinome Project A em outubro de 2019, em um evento de comemoração de 10 anos de League of Legends."
+            Text="Minecraft é um jogo eletrônico sandbox de sobrevivência de 2011 desenvolvido e publicado pela desenvolvedora sueca Mojang Studios. Originalmente criado por Markus (Notch) Persson usando a linguagem de programação Java, a primeira versão alfa pública foi lançada em 17 de maio de 2009."
             VerticalOptions="Center"
             HorizontalOptions="Center"
             TextColor="WhiteSmoke"
@@ -35,6 +33,6 @@
             FontFamily = "OpenSans"
     />
         </VerticalStackLayout>
-        
+
     </VerticalStackLayout>
 </ContentPage>

@@ -2,22 +2,28 @@ namespace AppFly;
 
 public partial class FlyoutP : FlyoutPage
 {
-	public FlyoutP()
-	{
-         InitializeComponent();
+    public FlyoutP()
+    {
+        InitializeComponent();
 
-        //Define que a página inicial aberta dentro do Detail é a MainPage (Home)
         Detail = new NavigationPage(new MainPage());
+    }
+
+    private void Minecraft(object sender, EventArgs e)
+    {
+        Detail = new NavigationPage(new Minecraft());
+        IsPresented = false;
+    }
+
+    private void hades(object sender, EventArgs e)
+    {
+        Detail = new NavigationPage(new hades());
+        IsPresented = false;
     }
 
     private void Valorant(object sender, EventArgs e)
     {
         Detail = new NavigationPage(new valorant());
         IsPresented = false;
-    }
-
-    private void OnValorantClicked(object sender, EventArgs e)
-    {
-
     }
 }

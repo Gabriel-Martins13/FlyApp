@@ -3,21 +3,63 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="AppFly.FlyoutP"
              FlyoutLayoutBehavior="Popover"
+            Title="Empty"
              >
     <FlyoutPage.Flyout>
-        <ContentPage Title="Valorant" BackgroundColor="Black">
-            <StackLayout Spacing="30">
-
-                <Label Text="Menu" FontSize="24" HorizontalOptions="Center" Margin="0,20,0,20" TextColor="White"/>
-
-                <Button Text ="Valorant"
-                        Clicked="Valorant"
-                        WidthRequest="200"/>
-
-                <Button Text ="Autonomia Km/L"
-                        Clicked="OnValorantClicked"
-                        WidthRequest="200"/>
-
+        <ContentPage 
+            Title="Top 3"
+            BackgroundImageSource="wa.jpg"
+                    
+            >
+            <StackLayout
+                Spacing="15"
+            >
+                <Label 
+                Text="Top 3" 
+                FontSize="40" 
+                HorizontalOptions="Center" 
+                Margin="0,20,0,5"
+                TextColor="LightSteelBlue"
+                FontAttributes="Bold"
+                />
+                <Button 
+                Text="1º Minecraft"
+                Clicked="Minecraft"
+                WidthRequest="200"
+                TextColor="#FFFFFF"
+                BackgroundColor="#00AA00"
+                BorderColor="#835432"
+                BorderWidth="2"
+                CornerRadius="0"
+                HeightRequest="40"
+                HorizontalOptions="Center"
+                CharacterSpacing="2"
+                FontAttributes="Bold"    />
+                <Button
+                Text="2º Hades 1"
+                Clicked="hades"
+                WidthRequest="200"
+                TextColor="#FFE082"
+                BackgroundColor="#B71C1C"
+                BorderColor="#D4A359"
+                BorderWidth="2"
+                CornerRadius="0"
+                CharacterSpacing="2"
+                HorizontalOptions="Center"
+                FontAttributes="Bold"/>
+                <Button 
+                Text="3º Valorant"
+                Clicked="Valorant"
+                WidthRequest="200"
+                TextColor="#FFFFFF"
+                BackgroundColor="#FF4655"
+                BorderColor="#FF4655"
+                BorderWidth="1"
+                CornerRadius="0"
+                HorizontalOptions="Center"
+                CharacterSpacing="2"
+                FontAttributes="Bold"        
+                />
             </StackLayout>
         </ContentPage>
     </FlyoutPage.Flyout>

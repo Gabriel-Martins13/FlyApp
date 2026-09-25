@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppFly.hades"
+             BackgroundImageSource="aaa.jpg">
+
+    <VerticalStackLayout>
+        <Image
+            Margin="0,32,0,0"
+            Source="ad.png"
+            HeightRequest="140"
+            Aspect="AspectFit"
+            SemanticProperties.Description="Logo do jogo Hades" />
+        
+        <VerticalStackLayout
+            BackgroundColor="#80000000"
+            HeightRequest="200"
+            Margin="10,0">
+            
+            <Label 
+                Text="Hades"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center"
+                FontSize="50"
+                TextColor="Red"
+                FontFamily="OpenSansSemibold" />
+            
+            <Label
+                Text="Hades é um jogo de ação roguelike desenvolvido e publicado pela Supergiant Games. Lançado em 2020, o jogo coloca o jogador no controle de Zagreu, o Príncipe do Submundo, em sua tentativa desesperada de escapar do reino de seu pai, Hades, com a ajuda dos deuses do Olimpo."
+                VerticalOptions="Center"
+                HorizontalOptions="Center"
+                TextColor="WhiteSmoke"
+                VerticalTextAlignment="Center"
+                HorizontalTextAlignment="Center"
+                FontFamily="OpenSans" />
+
+        </VerticalStackLayout>
+
+    </VerticalStackLayout>
+</ContentPage>
