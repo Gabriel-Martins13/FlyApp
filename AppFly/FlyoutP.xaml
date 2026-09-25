@@ -23,6 +23,19 @@
                 FontAttributes="Bold"
                 />
                 <Button 
+                Text="Inicio"
+                Clicked="inicio"
+                WidthRequest="200"
+                TextColor="#FFFFFF"
+                BackgroundColor="DarkSlateBlue"
+                BorderColor="LightGoldenrodYellow"
+                BorderWidth="2"
+                CornerRadius="0"
+                HeightRequest="40"
+                HorizontalOptions="Center"
+                CharacterSpacing="2"
+                FontAttributes="Bold"    />
+                <Button 
                 Text="1º Minecraft"
                 Clicked="Minecraft"
                 WidthRequest="200"

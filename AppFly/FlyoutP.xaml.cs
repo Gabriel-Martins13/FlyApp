@@ -26,4 +26,10 @@ public partial class FlyoutP : FlyoutPage
         Detail = new NavigationPage(new valorant());
         IsPresented = false;
     }
+
+    private void inicio(object sender, EventArgs e)
+    {
+        Detail = new NavigationPage(new MainPage());
+        IsPresented = false;
+    }
 }
